@@ -177,4 +177,35 @@ p {
     line-height: 10rem;
     padding: 0; }
 
+.site-header {
+  background: url("../assets/img/start.jpeg") center/cover fixed;
+  height: 100vh;
+  position: relative; }
+  .site-header__blackout {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  .site-header__nav {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px; }
+  .site-header__h1 {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center; }
+  .site-header__button {
+    position: absolute;
+    bottom: 15%;
+    margin: 0 auto;
+    left: 0;
+    right: 0; }
+
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem; }
+  .site-section--bg-color {
+    background-color: #504533; }
+
 /*# sourceMappingURL=main.css.map */
