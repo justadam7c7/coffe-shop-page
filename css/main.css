@@ -204,7 +204,7 @@ p {
       display: inline-block;
       width: 23%; } }
 .nav__link {
-  color: #eff0f3;
+  color: #F0E9E1;
   text-decoration: none;
   padding: 10px;
   border-radius: .4rem;
@@ -212,10 +212,10 @@ p {
   transition-duration: .5s;
   text-align: center; }
   .nav__link:hover {
-    background-color: #74030e; }
+    background-color: #3B6978; }
 
 .heading--h1 {
-  color: #eff0f3;
+  color: #F0E9E1;
   font-size: 6rem; }
   @media screen and (min-width: 768px) {
     .heading--h1 {
@@ -253,7 +253,7 @@ p {
     font-family: Roboto, 'sans-serif'; }
 
 .btn {
-  color: #eff0f3;
+  color: #F0E9E1;
   border: none;
   border-radius: .4rem;
   display: inline-block;
@@ -265,16 +265,16 @@ p {
   text-decoration: none;
   transition-duration: .5s; }
   .btn--red {
-    background-color: #74030e; }
+    background-color: #3B6978; }
     .btn--red:hover {
-      background-color: #420208; }
+      background-color: #2a4b56; }
   .btn--green {
-    background-color: #132601; }
+    background-color: #1C4942; }
     .btn--green:hover {
-      background-color: black; }
+      background-color: #0e2421; }
   .btn--outline {
     background-color: transparent;
-    border: 1px solid #eff0f3; }
+    border: 1px solid #F0E9E1; }
     .btn--outline:hover {
       background-color: rgba(255, 255, 255, 0.3); }
   .btn--circle {
@@ -298,13 +298,13 @@ p {
     margin-bottom: .6rem;
     display: block; }
   .form__item {
-    color: #eff0f3;
+    color: #F0E9E1;
     display: block;
     width: 100%;
     font-size: 1.6rem;
     padding: 1.4rem;
     background-color: rgba(0, 0, 0, 0.4);
-    border: 0.1rem solid #eff0f3;
+    border: 0.1rem solid #F0E9E1;
     border-radius: .4rem;
     margin-bottom: 1.5rem;
     outline: 0;
@@ -312,10 +312,10 @@ p {
     font-family: inherit; }
     .form__item:focus {
       background-color: rgba(255, 255, 255, 0.2);
-      color: #eff0f3; }
+      color: #F0E9E1; }
 
 .site-header {
-  background: url("../assets/img/start.jpeg") center/cover fixed;
+  background: url("../assets/img/start.jpg") center/cover fixed;
   height: 100vh;
   position: relative; }
   .site-header__blackout {
@@ -343,11 +343,11 @@ p {
   min-height: 70vh;
   padding-top: 3rem; }
   .site-section--bg-color {
-    background-color: #504533; }
+    background-color: #50585B; }
 
 .site-contact {
-  background: url(../assets/img/contact.jpeg) center/cover no-repeat fixed;
-  color: #eff0f3;
+  background: url(../assets/img/contact.jpg) center/cover no-repeat fixed;
+  color: #F0E9E1;
   position: relative;
   height: 85vh; }
   .site-contact__blackout {
@@ -363,5 +363,10 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%); }
+
+.site-footer {
+  background-color: #1C4942;
+  height: 10vh;
+  color: #F0E9E1; }
 
 /*# sourceMappingURL=main.css.map */
